@@ -1,0 +1,96 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "https://gamesense.pub/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js",
+                    "path": "js/jquery.min.js"
+                },
+                {
+                    "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js",
+                    "path": "js/bootstrap.min.js"
+                },
+                {
+                    "url": "https://gamesense.pub/static/js/scrollreveal.min.js",
+                    "path": "js/scrollreveal.min.js"
+                },
+                {
+                    "url": "https://gamesense.pub/static/css/style.css",
+                    "path": "css/style.css"
+                },
+                {
+                    "url": "https://gamesense.pub/static/css/font-awesome.min.css",
+                    "path": "css/font-awesome.min.css",
+                    "children": [
+                        {
+                            "url": "https://gamesense.pub/static/fonts/fontawesome-webfont.eot?v=4.7.0",
+                            "path": "fonts/fontawesome-webfont.eot"
+                        },
+                        {
+                            "url": "https://gamesense.pub/static/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0",
+                            "path": "fonts/fontawesome-webfont_1.eot"
+                        },
+                        {
+                            "url": "https://gamesense.pub/static/fonts/fontawesome-webfont.woff2?v=4.7.0",
+                            "path": "fonts/fontawesome-webfont.woff2"
+                        },
+                        {
+                            "url": "https://gamesense.pub/static/fonts/fontawesome-webfont.woff?v=4.7.0",
+                            "path": "fonts/fontawesome-webfont.woff"
+                        },
+                        {
+                            "url": "https://gamesense.pub/static/fonts/fontawesome-webfont.ttf?v=4.7.0",
+                            "path": "fonts/fontawesome-webfont.ttf"
+                        },
+                        {
+                            "url": "https://gamesense.pub/static/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular",
+                            "path": "images/fontawesome-webfont.svg"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://gamesense.pub/static/css/bootstrap.min.css",
+                    "path": "css/bootstrap.min.css",
+                    "children": [
+                        {
+                            "url": "https://gamesense.pub/static/fonts/glyphicons-halflings-regular.eot",
+                            "path": "fonts/glyphicons-halflings-regular.eot"
+                        },
+                        {
+                            "url": "https://gamesense.pub/static/fonts/glyphicons-halflings-regular.woff2",
+                            "path": "fonts/glyphicons-halflings-regular.woff2"
+                        },
+                        {
+                            "url": "https://gamesense.pub/static/fonts/glyphicons-halflings-regular.woff",
+                            "path": "fonts/glyphicons-halflings-regular.woff"
+                        },
+                        {
+                            "url": "https://gamesense.pub/static/fonts/glyphicons-halflings-regular.ttf",
+                            "path": "fonts/glyphicons-halflings-regular.ttf"
+                        },
+                        {
+                            "url": "https://gamesense.pub/static/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular",
+                            "path": "images/glyphicons-halflings-regular.svg"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://gamesense.pub/favicon.ico",
+                    "path": "favicon.ico"
+                }
+            ]
+        }
+    ],
+    "failures": []
+}
